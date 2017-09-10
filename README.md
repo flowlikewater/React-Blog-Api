@@ -1,24 +1,10 @@
-# README
+# React-Blog-Api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Getting Started - API References
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+| Endpoint      | Method        |            Example            |
+| ------------- |:-------------:| -----------------------------:|
+| /posts        | GET           | https://react-blog-api.herokuapp.com/posts |
+| /posts        | POST          | https://react-blog-api.herokuapp.com/posts |
+| /posts/:id    | GET           | https://react-blog-api.herokuapp.com/posts/1                        |
+| /posts/:id    | DELETE        | https://react-blog-api.herokuapp.com/posts/1                        |
